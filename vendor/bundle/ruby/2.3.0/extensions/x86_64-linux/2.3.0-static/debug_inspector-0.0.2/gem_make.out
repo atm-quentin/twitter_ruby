@@ -1,0 +1,15 @@
+current directory: /users/lpro/casir/vialgouq/test_app/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/opt/ruby233/bin/ruby -r ./siteconf20170302-8130-9wpi45.rb extconf.rb 
+creating Makefile
+
+current directory: /users/lpro/casir/vialgouq/test_app/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /users/lpro/casir/vialgouq/test_app/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /users/lpro/casir/vialgouq/test_app/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20170302-8130-1lenr1
