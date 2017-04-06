@@ -8,9 +8,10 @@ class TweetsController < ApplicationController
 
   def create
     @tweet = Tweet.new(tweet_params)
+    @tweet.user = @user
 
     if @tweet.save
-      redirect_to @tweet, notice: 'Tweet was successfully created.'
+      redirect_to user_tweets_path(@user), notice: 'Tweet was successfully created.'
     else
       render :new 
     end
@@ -33,5 +34,6 @@ class TweetsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def tweet_params
       params.require(:tweet).permit(:content)
+    #  params.require(:tweet).permit(:user_id)
     end
 end

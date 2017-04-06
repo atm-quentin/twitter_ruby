@@ -17,7 +17,6 @@
   <div class="field">
     <%= f.label :content %>
     <%= f.text_field :content %>
-    
   </div>
 
   <div class="actions">
@@ -43,7 +42,7 @@
       <tr>
         <td><%= tweet.content %></td>
         <td><%= tweet.user_id %></td>
-        <td><%= link_to 'Destroy',  user_tweet_path(user_id: @user.id), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy',  user_tweet_path(user_id: @user.id, id: tweet.id), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
