@@ -18,9 +18,10 @@ class TweetsController < ApplicationController
   end
 
   def destroy
+    set_tweet
     @tweet.destroy
     respond_to do |format|
-      format.html { redirect_to tweets_url, notice: 'Tweet was successfully destroyed.' }
+      format.html { redirect_to user_tweets_path(@user), notice: 'Tweet was successfully destroyed.' }
     end
   end
 
@@ -29,6 +30,10 @@ class TweetsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_user
       @user = User.find(params[:user_id])
+    end
+    
+    def set_tweet
+      @tweet = Tweet.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
