@@ -1,26 +1,26 @@
 # README
+Projet Ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Attendu pour le code
 
-Things you may want to cover:
+    Documentation de l'installation (simple) dans un README.
+    Tests unitaires des modèles exhaustifs.
+    Fichier seeds.rb permettant d'avoir des données permettant de tester l'interface.
 
-* Ruby version
+Attendu pour le rapport
 
-* System dependencies
+    Description de l'organisation du bi•tri•nôme.
+    Fonctionnel implémenté.
+    Difficultés rencontrées.
+    Améliorations possibles.
+    Vos impressions sur Ruby & Rails.
 
-* Configuration
+Soutenances
 
-* Database creation
+    Jeudi 11 mai & 18 mai.
+    Présentation de votre rapport & application (10 min).
+    Questions/réponses (5 min).
 
-* Database initialization
+Livraison par mail: Jean-Marie.Vallet@iut-valence.fr
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-* Test
+Dropbox : goo.gl/S11dpC
