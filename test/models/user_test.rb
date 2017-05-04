@@ -10,5 +10,11 @@ class UserTest < ActiveSupport::TestCase
     assert_not user_b.save
   end
   
+  test "name presence" do
+    user = User.new(nom: " ")
+    
+    assert_not user.save
+  end
+  
   
 end
