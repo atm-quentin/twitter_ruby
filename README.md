@@ -24,3 +24,8 @@ Things you may want to cover:
 * ...
 
 * Test
+
+Livraison par mail: Jean-Marie.Vallet@iut-valence.fr
+
+Dropbox : https://www.dropbox.com/sh/0b0quzttf1ceh6s/AADsQGPaPP9CFrxYrAiGLmUOa?dl=0
+
